@@ -1,0 +1,12 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Cosmos" "${PODS_CONFIGURATION_BUILD_DIR}/PopupDialog" "${PODS_CONFIGURATION_BUILD_DIR}/SQLite.swift" "${PODS_CONFIGURATION_BUILD_DIR}/SlackTextViewController" "${PODS_CONFIGURATION_BUILD_DIR}/SnapKit" "${PODS_CONFIGURATION_BUILD_DIR}/WebimClientLibrary" "${PODS_ROOT}/Crashlytics/iOS" "${PODS_ROOT}/Fabric/iOS"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Cosmos/Cosmos.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/PopupDialog/PopupDialog.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SQLite.swift/SQLite.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SlackTextViewController/SlackTextViewController.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SnapKit/SnapKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/WebimClientLibrary/WebimClientLibrary.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_CONFIGURATION_BUILD_DIR}/Cosmos/Cosmos.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/PopupDialog/PopupDialog.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/SQLite.swift/SQLite.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/SlackTextViewController/SlackTextViewController.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/SnapKit/SnapKit.framework/Headers" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/Cosmos" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/PopupDialog" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/SQLite.swift" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/SlackTextViewController" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/SnapKit"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"sqlite3" -l"z" -framework "Cosmos" -framework "Crashlytics" -framework "Fabric" -framework "Foundation" -framework "PopupDialog" -framework "SQLite" -framework "Security" -framework "SlackTextViewController" -framework "SnapKit" -framework "SystemConfiguration" -framework "UIKit" -framework "WebimClientLibrary"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
