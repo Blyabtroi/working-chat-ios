@@ -14,6 +14,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* MessageHolderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* MessageHolderTests.swift */; };
+		75B7C962228EDEC0001FEECB /* myModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B7C961228EDEC0001FEECB /* myModel.swift */; };
 		CE07E9952049794C00E0A0D3 /* SessionBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07E993204972C600E0A0D3 /* SessionBuilderTests.swift */; };
 		CE0CD75A202338FD00719DBE /* HistoryIDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0CD758202338EE00719DBE /* HistoryIDTests.swift */; };
 		CE0CD75D20234BD800719DBE /* SessionDestroyerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0CD75B20234BD500719DBE /* SessionDestroyerTests.swift */; };
@@ -68,7 +69,7 @@
 		CE86FAC0203C6FBC00CB9C2D /* WebimErrorImplTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE86FABF203C6FBC00CB9C2D /* WebimErrorImplTests.swift */; };
 		CE88BCD11FCD7F9A00A4FA2E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88BCD01FCD7F9A00A4FA2E /* SettingsViewController.swift */; };
 		CE88BCD31FCD88EA00A4FA2E /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88BCD21FCD88EA00A4FA2E /* Settings.swift */; };
-		CE88BCD51FCDA45C00A4FA2E /* ButtonConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88BCD41FCDA45C00A4FA2E /* ButtonConstants.swift */; };
+		CE88BCD51FCDA45C00A4FA2E /* ButtonConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88BCD41FCDA45C00A4FA2E /* ButtonConstant.swift */; };
 		CE995DC32020908F00E27A3C /* WebimRemoteNotificationImplTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE995DC12020904300E27A3C /* WebimRemoteNotificationImplTests.swift */; };
 		CEA832681F9906C0004845F0 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA832671F9906BF004845F0 /* ColorConstants.swift */; };
 		CEA8326A1F99079A004845F0 /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA832691F99079A004845F0 /* StringConstants.swift */; };
@@ -109,6 +110,7 @@
 		607FACE51AFB9204008FA782 /* WebimClientLibrary_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebimClientLibrary_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* MessageHolderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageHolderTests.swift; sourceTree = "<group>"; };
+		75B7C961228EDEC0001FEECB /* myModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myModel.swift; sourceTree = "<group>"; };
 		AB52E1C1E0F009A386DC1C6C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C4CD65CA48F80B5A4AD826B3 /* WebimClientLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WebimClientLibrary.podspec; path = ../WebimClientLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CE07E993204972C600E0A0D3 /* SessionBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionBuilderTests.swift; sourceTree = "<group>"; };
@@ -168,7 +170,7 @@
 		CE86FABF203C6FBC00CB9C2D /* WebimErrorImplTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebimErrorImplTests.swift; sourceTree = "<group>"; };
 		CE88BCD01FCD7F9A00A4FA2E /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = WebimClientLibrary/SettingsViewController.swift; sourceTree = SOURCE_ROOT; };
 		CE88BCD21FCD88EA00A4FA2E /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
-		CE88BCD41FCDA45C00A4FA2E /* ButtonConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonConstants.swift; sourceTree = "<group>"; };
+		CE88BCD41FCDA45C00A4FA2E /* ButtonConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonConstant.swift; sourceTree = "<group>"; };
 		CE9379091FEAADC80057E270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CE995DC12020904300E27A3C /* WebimRemoteNotificationImplTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebimRemoteNotificationImplTests.swift; sourceTree = "<group>"; };
 		CEA832671F9906BF004845F0 /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
@@ -261,6 +263,7 @@
 		607FACD21AFB9204008FA782 /* Example for WebimClientLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				CE45EDDB1F9108E200F56319 /* Extensions */,
 				CEC2787A2031A0110043899C /* Models */,
 				CEA832661F990689004845F0 /* AppearanceSettings */,
 				CE45EDDE1F95F94200F56319 /* Utilities */,
@@ -397,7 +400,6 @@
 		CE45EDDE1F95F94200F56319 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				CE45EDDB1F9108E200F56319 /* Extensions */,
 				CE45EDDF1F95F95C00F56319 /* MimeType.swift */,
 				CE48362D2032E0D900E18A20 /* PopupDialogHandler.swift */,
 				CE591A421FC2F31E004C95EE /* WebimService.swift */,
@@ -435,7 +437,7 @@
 		CEA832661F990689004845F0 /* AppearanceSettings */ = {
 			isa = PBXGroup;
 			children = (
-				CE88BCD41FCDA45C00A4FA2E /* ButtonConstants.swift */,
+				CE88BCD41FCDA45C00A4FA2E /* ButtonConstant.swift */,
 				CEA832671F9906BF004845F0 /* ColorConstants.swift */,
 				CEA832691F99079A004845F0 /* StringConstants.swift */,
 			);
@@ -447,6 +449,7 @@
 			children = (
 				CE380425202B3526003032D4 /* ColorScheme.swift */,
 				CE88BCD21FCD88EA00A4FA2E /* Settings.swift */,
+				75B7C961228EDEC0001FEECB /* myModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -671,8 +674,9 @@
 				CEBFB6812018E50500D9E5F6 /* UIViewController.swift in Sources */,
 				DDFC632B1F924D41008E1ACC /* UIImage.swift in Sources */,
 				CEF61A391F82A4C700BF7071 /* ChatViewController.swift in Sources */,
+				75B7C962228EDEC0001FEECB /* myModel.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
-				CE88BCD51FCDA45C00A4FA2E /* ButtonConstants.swift in Sources */,
+				CE88BCD51FCDA45C00A4FA2E /* ButtonConstant.swift in Sources */,
 				CEA832681F9906C0004845F0 /* ColorConstants.swift in Sources */,
 				CEA8326A1F99079A004845F0 /* StringConstants.swift in Sources */,
 				DDFC63CB1F93F23E008E1ACC /* RatingViewController.swift in Sources */,
